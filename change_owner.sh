@@ -1,7 +1,6 @@
 #!/bin/bash
-
 owner=$(stat -c %U hello)
 if [ "$owner" = "guillaume" ]
 then
-    chown vincent hello
+  chown vincent hello
 fi
