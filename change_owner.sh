@@ -1,0 +1,7 @@
+#!/bin/bash
+
+owner=$(stat -c %U hello)
+if [ "$owner" = "guillaume" ]
+then
+    chown vincent hello
+fi
