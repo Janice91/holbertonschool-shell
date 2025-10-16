@@ -1,4 +1,3 @@
-
 #!/bin/bash
-# Change owner and group only on regular files and directories, not symlinks
-find . ! -type l -exec chown vincent:staff {}
+find . ! -type l -exec chown vincent:staff {} +
+
